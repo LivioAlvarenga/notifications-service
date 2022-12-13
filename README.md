@@ -115,7 +115,8 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
 }
 ```
 
-Instalando validadores [class-validator](https://github.com/typestack/class-validator) e [class-transformer](hhttps://github.com/typestack/class-transformer)
+Instalando validadores [class-validator](https://github.com/typestack/class-validator) e [class-transformer](hhttps://github.com/typestack/class-transformer).
+
 
 ```bash
 npm i class-validator class-transformer
