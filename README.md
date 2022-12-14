@@ -148,6 +148,9 @@ $ npm run start:prod
 # unit tests
 $ npm run test
 
+# unit tests with watch
+$ npm run test:watch
+
 # e2e tests
 $ npm run test:e2e
 
