@@ -60,7 +60,7 @@ As seguintes ferramentas foram usadas na construção do projeto
 <p align="center">
    <a href= "https://nestjs.com/"><img alt="NestJs badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=E0234E&logo=NestJs&label=Framework&message=NestJs&color=E0234E"></a>
   <a href= "https://nodejs.org/en/"><img alt="Node.js badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=339933&logo=Node.js&label=Runtime Environment&message=Node.js&color=3139933"></a>
-   <a href= "https://www.typescriptlang.org/"><img alt="TypeScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=3178c6&logo=TypeScript&label=Language&message=TypeScript&color=3178c6"></a>
+  <a href= "https://www.typescriptlang.org/"><img alt="TypeScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=3178c6&logo=TypeScript&label=Language&message=TypeScript&color=3178c6"></a>
   <a href= "https://www.javascript.com/"><img alt="JavaScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=F7DF1E&logo=JavaScript&label=Language&message=JavaScript&color=F7DF1E"></a>
   <a href= "https://jestjs.io/pt-BR/"><img alt="JestJs badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=C21325&logo=Jest&label=Test&message=JestJs&color=C21325"></a>
   <a href= "https://www.prisma.io/"><img alt="Prisma badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=2d3748&logo=Prisma&label=ORM&message=Prisma&color=2d3748"></a>
