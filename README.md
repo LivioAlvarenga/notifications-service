@@ -41,10 +41,10 @@
 
 ## 📺 Vitrine Dev
 
-| :placard: Vitrine.Dev |                                                                            |
-| --------------------- | -------------------------------------------------------------------------- |
-| :sparkles: Nome       | **Back-end Serviço de Notificações com NestJs, TypeScript, Prisma e Jest** |
-| :label: Tecnologias   | nestjs, nodejs, typescript, javascript, jest, prisma, prettier, eslint     |
+| :placard: Vitrine.Dev |                                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------------- |
+| :sparkles: Nome       | **Back-end Serviço de Notificações com NestJs, Apache Kafka, Upstash, TypeScript, Prisma e Jest** |
+| :label: Tecnologias   | Nestjs, Apache Kafka, Upstash, NodeJs, Typescript, Javascript, Jest, Prisma, Prettier, Eslint     |
 
 ---
 
@@ -58,7 +58,9 @@ As seguintes ferramentas foram usadas na construção do projeto
 &nbsp;
 
 <p align="center">
-   <a href= "https://nestjs.com/"><img alt="NestJs badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=E0234E&logo=NestJs&label=Framework&message=NestJs&color=E0234E"></a>
+  <a href= "https://nestjs.com/"><img alt="NestJs badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=E0234E&logo=NestJs&label=Framework&message=NestJs&color=E0234E"></a>
+  <a href= "https://kafka.apache.org/"><img alt="Apache Kafka badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=231F20E&logo=Apache Kafka&label=Distributed event streaming platformk&message=Apache Kafka&color=231F20"></a>
+  <a href= "https://upstash.com/"><img alt="Upstash badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=00E9A3E&logo=Upstash&label=Serverless Data&message=Upstash&color=00E9A3"></a>
   <a href= "https://nodejs.org/en/"><img alt="Node.js badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=339933&logo=Node.js&label=Runtime Environment&message=Node.js&color=3139933"></a>
   <a href= "https://www.typescriptlang.org/"><img alt="TypeScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=3178c6&logo=TypeScript&label=Language&message=TypeScript&color=3178c6"></a>
   <a href= "https://www.javascript.com/"><img alt="JavaScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=F7DF1E&logo=JavaScript&label=Language&message=JavaScript&color=F7DF1E"></a>
@@ -82,10 +84,22 @@ Instalando CLI do NestJs de forma global
 npm i -g @nestjs/cli
 ```
 
+Instalando modulo de Microservices do Nestjs
+
+```bash
+npm i --save @nestjs/microservices
+```
+
 Criando projeto com Nestjs
 
 ```bash
 nest new notifications-service
+```
+
+Instalando KafkaJs
+
+```bash
+npm i kafkajs
 ```
 
 Instalando Prisma
@@ -116,7 +130,6 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
 ```
 
 Instalando validadores [class-validator](https://github.com/typestack/class-validator) e [class-transformer](hhttps://github.com/typestack/class-transformer).
-
 
 ```bash
 npm i class-validator class-transformer
