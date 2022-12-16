@@ -41,9 +41,10 @@ export class NotificationsController {
     const { notifications } = await this.getRecipientNotifications.execute({
       recipientId,
     });
+
     return {
       notifications: notifications.map((notification) => {
-        NotificationViewModel.toHTTP(notification);
+        return NotificationViewModel.toHTTP(notification);
       }),
     };
   }
