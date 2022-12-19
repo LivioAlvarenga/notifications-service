@@ -1,0 +1,15 @@
+{
+  "name": "kafka-producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kafka-producer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Livio Alvarenga",
+  "license": "MIT",
+  "dependencies": {
+    "kafkajs": "^2.2.3"
+  },
+  "type": "module"
+}

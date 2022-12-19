@@ -1,6 +1,6 @@
 <h1 align="center"> 
 <img src="./files/logo.svg" height=20 alt="logo ignite lab">
-	 - Back-end Serviço de Notificações com NestJs, TypeScript, Prisma e Jest
+	 - Back-end Serviço de Notificações com NestJs, Apache Kafka, Upstash, TypeScript, Prisma e Jest
 </h1>
 
 <p align="center">
@@ -22,7 +22,11 @@
 
 ## 💻 Sobre o projeto
 
-🚀 ...
+🚀 É um micro-serviço de notificações com NestJs, Apache Kafka, Upstash, TypeScript, Prisma e Jest.
+
+Possui as funcionalidades de:
+* Criar Notificações;
+* 
 
 &nbsp;
 
@@ -187,6 +191,14 @@ npx prisma studio
 npx prisma studio -b firefox -p 5173
 # -b firefox p/ especificar navegador
 # -p 5173 p/ especificar porta
+```
+
+### Kafka-producer
+
+```bash
+# Abrindo pasta Kafka-producer e executando o producer
+cd Kafka-producer
+node kafka-producer.js
 ```
 
 ---
