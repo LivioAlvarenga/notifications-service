@@ -22,11 +22,34 @@
 
 ## 💻 Sobre o projeto
 
-🚀 É um micro-serviço de notificações com NestJs, Apache Kafka, Upstash, TypeScript, Prisma e Jest.
+🚀 É um micro-serviço de notificações com NestJs, Apache Kafka, Upstash, TypeScript, Prisma e Jest. Este projeto faz parte do ignite-lad da RocketSeat.
 
 Possui as funcionalidades de:
 * Criar Notificações;
-* 
+* Ver Notificações;
+* Cancelar Notificações;
+* Marcar Notificação como Lida;
+* Marcar Notificação como não lida;
+* Contar Notificações;
+
+Criamos nossa estrutura como:
+- Kafka producer - Ao rodar o script kafka-producer.js enviamos uma notificação para o Topics do servidor kafka Upstash, esta notificação foi configurada para se manter no servidor ate 7 dias.
+
+- Prisma - Utilizei o Prisma como ORM e para ambiente de desenvolvimento utilizei o SQLite.
+
+- Test - Utilizei o JestJs para realizar os testes, são 13 testes no total.
+
+- Insomnia - Testei as rotas com Insomnia são 6 rotas no total.
+
+- SRC/app - Temos nossas entidades, repositórios e use-cases.
+
+- SRC/infra - simulação de database para testarmos a aplicação sem subir banco de dados. Temos nosso http que é nossa aplicação e também temos a messaging que é a nossa conexão com kafka.
+
+O objetivo foi realizar um micro-serviço que não precisamos subir banco de dados para testar, que tenha um banco de dados com um ORM, que seja interligado ao kafka para protegermos a integridade do serviço, assim mantemos as notificações salva ate que nosso serviço volte a funcionar. Também era objetivo criar o projeto com testes, bem modulado.
+
+O projeto é escalável, testável e seguro. Foi um grande desafio fazer a integração de todas as ferramentas e trabalhar com um projeto que poderia ser escalável.
+
+
 
 &nbsp;
 
